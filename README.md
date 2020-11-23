@@ -11,3 +11,5 @@ A = auto pilot
 
 ![Alt Text](resources/normalGame.gif)  
 
+## Aoto Pilot mode
+![Alt Text](resources/autoPilotGame.gif)  
