@@ -25,7 +25,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
 	private int totalBricks = 21;
 
 	private Timer timer;
-	private int delay = 8;
+	private int delay = 4;
 
 	private int playerX = 310;
 
@@ -100,7 +100,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
 			if(level >= 3) {
 				g.setColor(Color.red);
 				g.setFont(new Font("serif", Font.BOLD, 30));
-				g.drawString("Congratulations! You Won The All Game", 150, 250);
+				g.drawString("Congratulations! You Won The All Game", 120, 250);
 
 				g.setFont(new Font("serif", Font.BOLD, 20));
 				g.drawString("Press Enter to Restart", 230, 350);
